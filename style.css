@@ -1,0 +1,102 @@
+body {
+  background-color: #EBEBEB;
+}
+
+h1 {
+  color: #FDE54E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FDE54E;
+  font-size: 20px;
+}
+
+th, td {
+  border-top: 1px solid white;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FDE54E;
+  font-size: 15px;
+  font-weight: 29px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+.bullet-points {
+  font-family: 'Montserrat', sans-serif;
+  color: #FDE54E;
+  text-transform: none;
+}
+
+a:hover {
+  color: #30BCF2;
+}
+
+a {
+  text-decoration: none;
+  color: #FDE54E;
+}
+
+.card {
+  margin: 50px auto;
+  padding: 20px 40px;
+  width: 500px;
+  box-shadow: 1px 1px 0.4px #1434F6;
+  border-radius: 3px;
+  text-align:center;
+  background-image: url("images/space4.jpg");
+}
+
+.picture {
+  max-width:200px;
+  margin: 5px;
+}
+
+.idpic {
+  border-radius: 50%;
+  border: 5px solid #FDE54E;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.logo_size {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.btn-red {
+  background-color: #FDE54E;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+
+.btn-red:hover {
+  background-color: #30BCF2;
+  color: white;
+}
+
+.p_margin {
+  margin: 20px;
+}
