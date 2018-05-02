@@ -55,11 +55,12 @@ a {
 .card {
   margin: 50px auto;
   padding: 20px 40px;
-  width: 500px;
+  width: 800px;
   box-shadow: 1px 1px 0.4px #1434F6;
   border-radius: 3px;
   text-align:center;
   background-image: url("images/space4.jpg");
+
 }
 
 .picture {
@@ -67,19 +68,33 @@ a {
   margin: 5px;
 }
 
+ul{
+  list-style:none;
+}
+
 .idpic {
   border-radius: 50%;
   border: 5px solid #FDE54E;
 }
 
-li {
+.old_lis {
   display: inline-block;
   margin: 20px;
+}
+
+.new_lis {
+  margin: 50px;
 }
 
 .logo_size {
   font-size: 30px;
   margin-bottom: 5px;
+}
+
+.logo_size_new {
+  font-size: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .btn-red {
@@ -99,4 +114,20 @@ li {
 
 .p_margin {
   margin: 20px;
+  text-align: center;
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  left: -0.1;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  box-shadow: 1px 1px 0.4px #1434F6;
+  border-radius: 3px;
+  background-image: url("images/space4.jpg");
+}
+#page-content {
+  margin-left: 300px;
 }

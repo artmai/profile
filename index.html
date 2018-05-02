@@ -9,8 +9,16 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="card">
+    <div id="sidebar">
+      <ul class="bullet-points">
+        <li class="new_lis"><a href="#summary"><i class="fa fa-info-circle logo_size_new"></i></li></a>
+        <li class="new_lis"><a href="#favorite-movies"><i class="fa fa-wheelchair logo_size_new"></i></li></a>
+        <li class="new_lis"><a href="#help"><i class="fa fa-thumbs-up logo_size_new"></i></li></a>
+      </ul>
+    </div>
+
+    <div id="page-content" class="container">
+      <div id="summary" class="card">
         <img src="images/ArthurPic2.jpg" class="picture idpic" alt="Picture of food">
         <h1>Arthur Maisonnier</h1>
         <h2>CTO UFO</h2>
@@ -18,15 +26,15 @@
         <a href="https//:www.google.com" class="btn-red">See for yourself</a>
       </div>
 
-      <div class="card">
+      <div id="favorite-movies" class="card">
         <ul class="bullet-points">
-          <li><a href="https://www.facebook.com"><i class="fa fa-facebook logo_size"></i><br>Facebook</li></a>
-          <li><a href="https://www.instagram.com"><i class="fa fa-instagram logo_size"></i><br>Instagram</li></a>
-          <li><a href="https://www.twitter.com"><i class="fa fa-twitter logo_size"></i><br>Twitter</li></a>
+          <li class="old_lis"><a href="https://www.facebook.com"><i class="fa fa-facebook logo_size"></i><br>Facebook</li></a>
+          <li class="old_lis"><a href="https://www.instagram.com"><i class="fa fa-instagram logo_size"></i><br>Instagram</li></a>
+          <li class="old_lis"><a href="https://www.twitter.com"><i class="fa fa-twitter logo_size"></i><br>Twitter</li></a>
         </ul>
       </div>
 
-      <div class="card">
+      <div id="help" class="card">
         <h2>My favorite Food</h2>
         <table>
           <tr>
@@ -57,11 +65,12 @@
         <h2>About this page</h2>
         <p>This page has been coded during the <a href="#">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
         <ul class="bullet-points">
-          <li><a href="https://www.google.com"><i class="fa fa-star"></i></li></a>
-          <li><a href="https://www.google.com"><i class="fa fa-share"></i></li></a>
-          <li><a href="https://www.google.com"><i class="fa fa-heart"></i></li></a>
+          <li class="old_lis"><a href="https://www.google.com"><i class="fa fa-star"></i></li></a>
+          <li class="old_lis"><a href="https://www.google.com"><i class="fa fa-share"></i></li></a>
+          <li class="old_lis"><a href="https://www.google.com"><i class="fa fa-heart"></i></li></a>
         </ul>
       </div>
     </div>
+
   </body>
 </html>
